@@ -5,6 +5,7 @@
         "--security-opt",
         "seccomp=unconfined",
         "--network=host",
+        "--ipc=host",
         "--privileged",
         "-v",
         "/dev/bus/usb:/dev/bus/usb:ro",
